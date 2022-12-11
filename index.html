@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+	<title>Todo list</title>
+</head>
+
+<body>
+	<main class="todo-list">
+		<div class="todo-list__container">
+			<div class="todo-list__body">
+
+				<h1 class="todo-list__tittle">Todo list</h1>
+
+				<div action="#" class="todo-list__new-task new-task">
+					<input type="text" class="new-task__input" placeholder="Add new task" maxlength="40"
+						spellcheck="false">
+					<button class="new-task__btn" type="submit"><img src="./img/arrow.svg" alt=""></button>
+				</div>
+
+				<div class="sort">
+					<h3>sort by:</h3>
+					<button class="sort-date">date/</button>
+					<button class="sort-name">Abc</button>
+				</div>
+				<ul class="todo-list__tasks">
+					<div class="todo-list__message">So, what plans have you, if any?</div>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
